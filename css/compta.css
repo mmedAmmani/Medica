@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compta {
+  width: 60%;
+  height: 60%;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+  opacity: 0.9;
+  color: #eee;
+  border-radius: 15px;
+  box-shadow: 0 -5px 8px 3px #3087ff;
+  position: relative;
+}
+
+.compta h1 {
+  text-align: center;
+  margin-top: 0.3rem;
+  border-bottom: 1px dotted rgb(13, 110, 253);
+  padding: 0.7rem;
+  margin-bottom: 1rem;
+}
+
+.compta h1 i {
+  color: rgb(13, 110, 253);
+}
+
+.inputs {
+  padding: 2rem;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.inputs .btn {
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input {
+  background: transparent;
+}
+
+.form-grp {
+  padding: 0.5rem;
+  /* margin-bottom: 0.5rem; */
+}
+.form-grp input {
+  margin-left: 0.5rem;
+  border: none;
+  border-bottom: 2px dotted rgb(13, 110, 253);
+  border-radius: 30px;
+  color: rgb(13, 110, 253);
+  padding: 0.5rem;
+}
+
+input:focus {
+  border: none;
+}
+
+.form-grp input::placeholder {
+  color: rgb(13, 110, 253);
+  text-align: center;
+  font-size: 1.2rem;
+}
+
+.wide {
+  width: 300px;
+}
+
+.file {
+  margin: 20px 0;
+}
+
+.wide-grp {
+  margin: 1rem 0;
+}
+
+input[type='month'] {
+  background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+  padding: 0.3rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.reset {
+  width: 200px;
+  cursor: pointer;
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.afficher {
+  margin: 2.5rem !important;
+}

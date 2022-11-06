@@ -1,0 +1,55 @@
+.actions {
+  border-radius: 1rem;
+  padding: 0.5rem;
+  margin: 5rem auto;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.search {
+  position: absolute;
+  right: 60%;
+  display: flex;
+  align-items: center;
+}
+.search input {
+  padding: 0.2rem;
+  border: 1px solid #330867;
+  border-radius: 10px;
+  width: 15rem;
+  background: transparent;
+}
+.search i {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+  color: #330867;
+}
+
+.ajouter {
+  position: absolute;
+  right: 40px;
+  color: #777;
+  background-image: linear-gradient(120deg, #89f7fe 0%, #66a6ff 100%);
+  font-weight: bold;
+  padding: 0.8rem 1rem;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.tableau {
+  padding: 2rem;
+  opacity: 0.8;
+  background: #fff;
+  border-radius: 1rem;
+  margin-top: 3rem;
+  box-shadow: 0 -5px 8px 3px #3087ff;
+}
+
+.tableau .btn {
+  cursor: pointer;
+}
+.tableau a:hover {
+  text-decoration: none;
+}

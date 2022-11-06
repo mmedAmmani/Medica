@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Oswald:wght@200&family=Roboto+Mono:ital,wght@1,100&family=Roboto:ital,wght@0,300;1,300&display=swap');
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(233, 247, 228);
+}
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+ul {
+  list-style: none;
+}
+
+.main {
+  padding: 0.5rem;
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  background: #7fffd4;
+  height: 100%;
+  padding: 2rem;
+  border-radius: 15px 0px 0px 15px;
+  position: fixed;
+  background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+.test {
+  width: 24.5%;
+  height: 100%;
+}
+
+.sidebar h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.sidebar .linksMet {
+  margin-top: 40px;
+}
+
+.sidebar .linksMet li a {
+  color: #fff;
+  line-height: 3.5rem;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  align-items: center;
+}
+.sidebar .linksMet li {
+  width: 100%;
+  padding: 5px;
+  border-bottom: 1px dotted #777;
+}
+.sidebar .linksMet li:last-child {
+  border-bottom: none;
+}
+.sidebar .linksMet li i {
+  margin-right: 20px;
+  color: rgb(13, 110, 253);
+}
+.sidebar .linksMet li a {
+  transition: all 0.4s ease;
+}
+.sidebar .linksMet li a:hover {
+  /* background-color: rgba(13, 110, 253, 0.4); */
+  transform: translateX(15px);
+}
+.sidebar .linksMet li a:hover {
+  text-decoration: none;
+}
+.sidebar .user-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.sidebar img {
+  height: 40px;
+  width: 40px;
+}
+.main .container {
+  height: 97.5vh;
+  border-radius: 0 1rem 1rem 0px;
+  width: 100%;
+  padding-top: 20px;
+  /* background: url('../img/secretar.png') center center/cover no-repeat; */
+}
+
+.sidebar h1 {
+  display: flex;
+  align-items: center;
+  color: rgb(51, 204, 255);
+}
+
+.user-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 20px;
+  color: #fff;
+}
+.user {
+  align-self: center;
+  text-align: center;
+  transform: translateX(-10px);
+}
+.user img {
+  height: 60px;
+  width: 60px;
+}
+.links {
+  display: flex;
+  justify-content: space-between;
+}
+.links a {
+  color: #fff;
+}
+.links a i {
+  color: rgb(13, 110, 253);
+}
+
+.links i {
+  margin-right: 5px;
+}
+
+.register {
+  margin-bottom: 20px;
+}
